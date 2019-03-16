@@ -79,7 +79,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5SG-fW-CI2">
-                                            <rect key="frame" x="89" y="37" width="270" height="72"/>
+                                            <rect key="frame" x="89" y="37" width="270" height="52"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -87,7 +87,7 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="ASf-dD-7b1" firstAttribute="top" secondItem="5SN-fb-h1H" secondAttribute="topMargin" id="9xN-0L-fEx"/>
-                                        <constraint firstItem="5SG-fW-CI2" firstAttribute="bottom" secondItem="5SN-fb-h1H" secondAttribute="bottomMargin" id="D9x-2b-mVD"/>
+                                        <constraint firstItem="5SG-fW-CI2" firstAttribute="bottom" secondItem="5SN-fb-h1H" secondAttribute="bottomMargin" constant="-20" id="D9x-2b-mVD"/>
                                         <constraint firstItem="5SG-fW-CI2" firstAttribute="top" secondItem="ASf-dD-7b1" secondAttribute="bottom" constant="4" id="LTU-xi-Iof"/>
                                         <constraint firstItem="5SG-fW-CI2" firstAttribute="trailing" secondItem="5SN-fb-h1H" secondAttribute="trailingMargin" id="Sco-Pa-Azr"/>
                                         <constraint firstItem="5SG-fW-CI2" firstAttribute="leading" secondItem="0pJ-3F-N12" secondAttribute="trailing" constant="8" id="h2e-Pf-IHq"/>
