@@ -29,9 +29,11 @@ class TweetViewController: UIViewController, UITextViewDelegate {
         if !TweetTextView.text.isEmpty{
             print(TweetTextView.text)
             TwitterAPICaller.client?.postTweet(tweetString: TweetTextView.text, success: {
+                ToastView.shared.short(self.view, txt_msg: "Tweet posted")
                 self.dismiss(animated: true, completion: nil)
             }, failure: { (Error) in
                 print("Error with posting Tweet:",Error)
+                ToastView.shared.short(self.view, txt_msg: "Error with posting Tweet try again later")
                 self.dismiss(animated: true, completion: nil)
             })
         }
